@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.EnumMapping" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CLUB.COMMON\CLUB.COMMON.csproj" />
+    <ProjectReference Include="..\CLUB.CONTEXT.CONTRACTS\CLUB.CONTEXT.CONTRACTS.csproj" />
+    <ProjectReference Include="..\CLUB.REPOSITORIES.CONTRACTS\CLUB.REPOSITORIES.CONTRACTS.csproj" />
+    <ProjectReference Include="..\CLUB.SERVICES.CONTRACTS\CLUB.SERVICES.CONTRACTS.csproj" />
+    <ProjectReference Include="..\CLUB.SHARED\CLUB.SHARED.csproj" />
+  </ItemGroup>
+
+</Project>
