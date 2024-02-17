@@ -85,11 +85,11 @@ erDiagram
     WherePlaces ||--o{ Order: is
     WherePays ||--o{ Order: is
 
-    BaseAuditEntity ||--o{ Client: allows
-    BaseAuditEntity ||--o{ FreeMen: allows
-    BaseAuditEntity ||--o{ Service: allows
-    BaseAuditEntity ||--o{ WherePlace: allows
-    BaseAuditEntity ||--o{ WherePay: allows
+    BaseAuditEntity ||--o{ TClient: allows
+    BaseAuditEntity ||--o{ FreeMens: allows
+    BaseAuditEntity ||--o{ Services: allows
+    BaseAuditEntity ||--o{ WherePlaces: allows
+    BaseAuditEntity ||--o{ WherePays: allows
  ```
 SQL скрипт
 ---
